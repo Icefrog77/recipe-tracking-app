@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+/* Container styles */
+.App {
+  padding: 1em;
+}
+
+/* Typography */
+html {
+  font-family: 'Open Sans', sans-serif; /* Change to Open Sans */
+}
+
+/* Header styles */
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Delicious Food Recipes heading */
+h1 {
+  font-family: 'Playfair Display SC', serif; /* Change to Playfair Display SC */
+  font-size: 64px;
+  text-align: center;
+}
+
+/* Table styles */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table body styles */
+td {
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Content overflow */
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* Image styles */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
